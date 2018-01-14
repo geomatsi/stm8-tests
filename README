@@ -1,5 +1,0 @@
-mkdir build
-meson build
-cd build
-ninja blink.ihx
-ninja flash_blink
