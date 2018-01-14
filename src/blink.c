@@ -2,12 +2,7 @@
 
 #define	LED	(0x1 << 0x5)
 
-static void sleep(unsigned int c)
-{
-	volatile unsigned int i;
-
-	for(i = 0; i < c; i++);
-}
+extern void sleep(unsigned int c);
 
 int main()
 {
